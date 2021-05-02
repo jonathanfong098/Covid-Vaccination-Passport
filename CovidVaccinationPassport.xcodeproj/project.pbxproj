@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58143F2B263F6E2500C87C67 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58143F2A263F6E2500C87C67 /* CustomCorner.swift */; };
 		58FE8840263CD9E100613F39 /* CovidVaccinationPassportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE883F263CD9E100613F39 /* CovidVaccinationPassportApp.swift */; };
 		58FE8842263CD9E100613F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8841263CD9E100613F39 /* ContentView.swift */; };
 		58FE8844263CD9E200613F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FE8843263CD9E200613F39 /* Assets.xcassets */; };
@@ -18,9 +19,21 @@
 		58FE885A263DF88600613F39 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8859263DF88600613F39 /* LoginView.swift */; };
 		58FE885D263E006800613F39 /* NurseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE885C263E006800613F39 /* NurseView.swift */; };
 		58FE885F263E012800613F39 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE885E263E012800613F39 /* RegisterView.swift */; };
+		58FE886A263E1F3500613F39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8869263E1F3500613F39 /* HomeView.swift */; };
+		58FE8876263E6F2800613F39 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8875263E6F2800613F39 /* UserViewModel.swift */; };
+		58FE8878263E6FB100613F39 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8877263E6FB100613F39 /* UserInfo.swift */; };
+		58FE887D263E70B500613F39 /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8879263E70B500613F39 /* FBKeys.swift */; };
+		58FE887E263E70B500613F39 /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE887A263E70B500613F39 /* FBUser.swift */; };
+		58FE887F263E70B500613F39 /* FBFireStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE887B263E70B500613F39 /* FBFireStoreError.swift */; };
+		58FE8880263E70B500613F39 /* FBFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE887C263E70B500613F39 /* FBFireStore.swift */; };
+		58FE8883263E70C900613F39 /* FBAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8881263E70C900613F39 /* FBAuthError.swift */; };
+		58FE8884263E70C900613F39 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8882263E70C900613F39 /* FBAuth.swift */; };
+		58FE8886263E9BCB00613F39 /* PatientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8885263E9BCB00613F39 /* PatientViewModel.swift */; };
+		58FE888B263EB09B00613F39 /* FBPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE888A263EB09B00613F39 /* FBPatient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58143F2A263F6E2500C87C67 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		58FE883C263CD9E100613F39 /* CovidVaccinationPassport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidVaccinationPassport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FE883F263CD9E100613F39 /* CovidVaccinationPassportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidVaccinationPassportApp.swift; sourceTree = "<group>"; };
 		58FE8841263CD9E100613F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +44,17 @@
 		58FE8859263DF88600613F39 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		58FE885C263E006800613F39 /* NurseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseView.swift; sourceTree = "<group>"; };
 		58FE885E263E012800613F39 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		58FE8869263E1F3500613F39 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		58FE8875263E6F2800613F39 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		58FE8877263E6FB100613F39 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		58FE8879263E70B500613F39 /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
+		58FE887A263E70B500613F39 /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		58FE887B263E70B500613F39 /* FBFireStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStoreError.swift; sourceTree = "<group>"; };
+		58FE887C263E70B500613F39 /* FBFireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStore.swift; sourceTree = "<group>"; };
+		58FE8881263E70C900613F39 /* FBAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuthError.swift; sourceTree = "<group>"; };
+		58FE8882263E70C900613F39 /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		58FE8885263E9BCB00613F39 /* PatientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewModel.swift; sourceTree = "<group>"; };
+		58FE888A263EB09B00613F39 /* FBPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPatient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +90,11 @@
 		58FE883E263CD9E100613F39 /* CovidVaccinationPassport */ = {
 			isa = PBXGroup;
 			children = (
+				58FE8888263EAEC000613F39 /* Nurse */,
+				58FE8870263E6CAB00613F39 /* Firebase */,
 				58FE885B263DFFE200613F39 /* Views */,
 				58FE883F263CD9E100613F39 /* CovidVaccinationPassportApp.swift */,
+				58FE8879263E70B500613F39 /* FBKeys.swift */,
 				58FE8841263CD9E100613F39 /* ContentView.swift */,
 				58FE8843263CD9E200613F39 /* Assets.xcassets */,
 				58FE8848263CD9E200613F39 /* Info.plist */,
@@ -88,11 +115,60 @@
 		58FE885B263DFFE200613F39 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				58FE8859263DF88600613F39 /* LoginView.swift */,
-				58FE885C263E006800613F39 /* NurseView.swift */,
-				58FE885E263E012800613F39 /* RegisterView.swift */,
+				58FE8869263E1F3500613F39 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		58FE8870263E6CAB00613F39 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8874263E6CD200613F39 /* Auth */,
+				58FE8873263E6CC700613F39 /* Firestore */,
+				58FE8871263E6CB300613F39 /* Views */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		58FE8871263E6CB300613F39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8859263DF88600613F39 /* LoginView.swift */,
+				58FE885E263E012800613F39 /* RegisterView.swift */,
+				58143F2A263F6E2500C87C67 /* CustomCorner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58FE8873263E6CC700613F39 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				58FE887C263E70B500613F39 /* FBFireStore.swift */,
+				58FE887B263E70B500613F39 /* FBFireStoreError.swift */,
+				58FE887A263E70B500613F39 /* FBUser.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		58FE8874263E6CD200613F39 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8882263E70C900613F39 /* FBAuth.swift */,
+				58FE8881263E70C900613F39 /* FBAuthError.swift */,
+				58FE8877263E6FB100613F39 /* UserInfo.swift */,
+				58FE8875263E6F2800613F39 /* UserViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		58FE8888263EAEC000613F39 /* Nurse */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8885263E9BCB00613F39 /* PatientViewModel.swift */,
+				58FE885C263E006800613F39 /* NurseView.swift */,
+				58FE888A263EB09B00613F39 /* FBPatient.swift */,
+			);
+			path = Nurse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,10 +250,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				58FE8842263CD9E100613F39 /* ContentView.swift in Sources */,
+				58FE887D263E70B500613F39 /* FBKeys.swift in Sources */,
+				58FE8886263E9BCB00613F39 /* PatientViewModel.swift in Sources */,
+				58FE887F263E70B500613F39 /* FBFireStoreError.swift in Sources */,
+				58143F2B263F6E2500C87C67 /* CustomCorner.swift in Sources */,
+				58FE888B263EB09B00613F39 /* FBPatient.swift in Sources */,
 				58FE885F263E012800613F39 /* RegisterView.swift in Sources */,
+				58FE887E263E70B500613F39 /* FBUser.swift in Sources */,
 				58FE885A263DF88600613F39 /* LoginView.swift in Sources */,
+				58FE886A263E1F3500613F39 /* HomeView.swift in Sources */,
 				58FE885D263E006800613F39 /* NurseView.swift in Sources */,
 				58FE8840263CD9E100613F39 /* CovidVaccinationPassportApp.swift in Sources */,
+				58FE8876263E6F2800613F39 /* UserViewModel.swift in Sources */,
+				58FE8883263E70C900613F39 /* FBAuthError.swift in Sources */,
+				58FE8878263E6FB100613F39 /* UserInfo.swift in Sources */,
+				58FE8884263E70C900613F39 /* FBAuth.swift in Sources */,
+				58FE8880263E70B500613F39 /* FBFireStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
