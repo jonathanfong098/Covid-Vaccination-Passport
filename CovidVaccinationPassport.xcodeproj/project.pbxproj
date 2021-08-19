@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		58143F2B263F6E2500C87C67 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58143F2A263F6E2500C87C67 /* CustomCorner.swift */; };
+		58143F2D263F9F4D00C87C67 /* NanoID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58143F2C263F9F4D00C87C67 /* NanoID.swift */; };
+		583CAC4F26449A8A00DB2037 /* VaccineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CAC4E26449A8A00DB2037 /* VaccineViewModel.swift */; };
+		583CAC582644C2C500DB2037 /* PatientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CAC572644C2C500DB2037 /* PatientHelper.swift */; };
+		583CAC5C2644C85B00DB2037 /* VaccineHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CAC5B2644C85B00DB2037 /* VaccineHelper.swift */; };
+		583CAC5E2644CF7C00DB2037 /* PatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CAC5D2644CF7C00DB2037 /* PatientView.swift */; };
+		585853AD266EC8220036F6F9 /* VaccineCard.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 585853AC266EC8220036F6F9 /* VaccineCard.pkpass */; };
+		58668CDF2670892500243F81 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58668CDE2670892500243F81 /* ImagePicker.swift */; };
+		5898E4BB264BCE7D003954F4 /* FBVaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898E4BA264BCE7D003954F4 /* FBVaccine.swift */; };
+		5898E4BD264BD3A0003954F4 /* FBFirestoreVaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898E4BC264BD3A0003954F4 /* FBFirestoreVaccine.swift */; };
+		589D0DDD2643AFD80098B02A /* FBFirestorePatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589D0DDC2643AFD80098B02A /* FBFirestorePatient.swift */; };
+		589D0DE12643C0840098B02A /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589D0DE02643C0840098B02A /* test1.swift */; };
+		58AAC7192648F17C00A7DF61 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 58AAC7182648F17C00A7DF61 /* iPhoneNumberField */; };
+		58B1D699266575AF007464D6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1D698266575AF007464D6 /* Card.swift */; };
+		58BD37BA266E1AED00D7509B /* PassLibrarySUI in Frameworks */ = {isa = PBXBuildFile; productRef = 58BD37B9266E1AED00D7509B /* PassLibrarySUI */; };
+		58BD37BD266E1B6000D7509B /* PassLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 58BD37BC266E1B6000D7509B /* PassLibrary */; };
+		58C23FA3264238FF00F7593E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C23FA2264238FF00F7593E /* Colors.swift */; };
+		58C23FA9264245AB00F7593E /* DirectToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C23FA8264245AB00F7593E /* DirectToView.swift */; };
+		58DCE357264CFCBC000ACB1D /* VaccineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DCE356264CFCBC000ACB1D /* VaccineView.swift */; };
+		58EBF3252669ADED00A83298 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EBF3242669ADED00A83298 /* PassKit.framework */; };
 		58FE8840263CD9E100613F39 /* CovidVaccinationPassportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE883F263CD9E100613F39 /* CovidVaccinationPassportApp.swift */; };
 		58FE8842263CD9E100613F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8841263CD9E100613F39 /* ContentView.swift */; };
 		58FE8844263CD9E200613F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FE8843263CD9E200613F39 /* Assets.xcassets */; };
@@ -30,10 +49,28 @@
 		58FE8884263E70C900613F39 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8882263E70C900613F39 /* FBAuth.swift */; };
 		58FE8886263E9BCB00613F39 /* PatientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8885263E9BCB00613F39 /* PatientViewModel.swift */; };
 		58FE888B263EB09B00613F39 /* FBPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE888A263EB09B00613F39 /* FBPatient.swift */; };
+		A3B06D9D75DAB70C61CFAB12 /* libPods-CovidVaccinationPassport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2A07FE8EF1D7D7F74C009A /* libPods-CovidVaccinationPassport.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58143F2A263F6E2500C87C67 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		58143F2C263F9F4D00C87C67 /* NanoID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NanoID.swift; sourceTree = "<group>"; };
+		583CAC4E26449A8A00DB2037 /* VaccineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineViewModel.swift; sourceTree = "<group>"; };
+		583CAC572644C2C500DB2037 /* PatientHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHelper.swift; sourceTree = "<group>"; };
+		583CAC5B2644C85B00DB2037 /* VaccineHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineHelper.swift; sourceTree = "<group>"; };
+		583CAC5D2644CF7C00DB2037 /* PatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientView.swift; sourceTree = "<group>"; };
+		585853AC266EC8220036F6F9 /* VaccineCard.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = VaccineCard.pkpass; sourceTree = "<group>"; };
+		58668CDE2670892500243F81 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		5898E4BA264BCE7D003954F4 /* FBVaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBVaccine.swift; sourceTree = "<group>"; };
+		5898E4BC264BD3A0003954F4 /* FBFirestoreVaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBFirestoreVaccine.swift; sourceTree = "<group>"; };
+		589D0DDC2643AFD80098B02A /* FBFirestorePatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBFirestorePatient.swift; sourceTree = "<group>"; };
+		589D0DE02643C0840098B02A /* test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
+		58B1D698266575AF007464D6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		58C23FA2264238FF00F7593E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		58C23FA8264245AB00F7593E /* DirectToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectToView.swift; sourceTree = "<group>"; };
+		58DCE356264CFCBC000ACB1D /* VaccineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineView.swift; sourceTree = "<group>"; };
+		58EBF3222669ADED00A83298 /* CovidVaccinationPassport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CovidVaccinationPassport.entitlements; sourceTree = "<group>"; };
+		58EBF3242669ADED00A83298 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		58FE883C263CD9E100613F39 /* CovidVaccinationPassport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidVaccinationPassport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FE883F263CD9E100613F39 /* CovidVaccinationPassportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidVaccinationPassportApp.swift; sourceTree = "<group>"; };
 		58FE8841263CD9E100613F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +92,9 @@
 		58FE8882263E70C900613F39 /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
 		58FE8885263E9BCB00613F39 /* PatientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewModel.swift; sourceTree = "<group>"; };
 		58FE888A263EB09B00613F39 /* FBPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPatient.swift; sourceTree = "<group>"; };
+		7E2A07FE8EF1D7D7F74C009A /* libPods-CovidVaccinationPassport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CovidVaccinationPassport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1145A6697BFCD6BD13547D4 /* Pods-CovidVaccinationPassport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidVaccinationPassport.release.xcconfig"; path = "Target Support Files/Pods-CovidVaccinationPassport/Pods-CovidVaccinationPassport.release.xcconfig"; sourceTree = "<group>"; };
+		B13E3BEE2EE737675EB39C6E /* Pods-CovidVaccinationPassport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidVaccinationPassport.debug.xcconfig"; path = "Target Support Files/Pods-CovidVaccinationPassport/Pods-CovidVaccinationPassport.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,19 +103,147 @@
 			buildActionMask = 2147483647;
 			files = (
 				58FE8854263D5B4000613F39 /* FirebaseAuth in Frameworks */,
+				58BD37BD266E1B6000D7509B /* PassLibrary in Frameworks */,
+				58EBF3252669ADED00A83298 /* PassKit.framework in Frameworks */,
+				58AAC7192648F17C00A7DF61 /* iPhoneNumberField in Frameworks */,
+				58BD37BA266E1AED00D7509B /* PassLibrarySUI in Frameworks */,
 				58FE8856263D5B4000613F39 /* FirebaseFirestore in Frameworks */,
 				58FE8858263D5B4000613F39 /* FirebaseStorage in Frameworks */,
+				A3B06D9D75DAB70C61CFAB12 /* libPods-CovidVaccinationPassport.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42149FF89CC6D8182C002216 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B13E3BEE2EE737675EB39C6E /* Pods-CovidVaccinationPassport.debug.xcconfig */,
+				A1145A6697BFCD6BD13547D4 /* Pods-CovidVaccinationPassport.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		583CAC4D2644989900DB2037 /* ViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				58143F2A263F6E2500C87C67 /* CustomCorner.swift */,
+				58C23FA2264238FF00F7593E /* Colors.swift */,
+				58C23FA8264245AB00F7593E /* DirectToView.swift */,
+			);
+			path = ViewHelpers;
+			sourceTree = "<group>";
+		};
+		583CAC592644C82600DB2037 /* Vaccine */ = {
+			isa = PBXGroup;
+			children = (
+				583CAC4E26449A8A00DB2037 /* VaccineViewModel.swift */,
+				5898E4BA264BCE7D003954F4 /* FBVaccine.swift */,
+				583CAC5B2644C85B00DB2037 /* VaccineHelper.swift */,
+				5898E4BC264BD3A0003954F4 /* FBFirestoreVaccine.swift */,
+				58DCE356264CFCBC000ACB1D /* VaccineView.swift */,
+			);
+			path = Vaccine;
+			sourceTree = "<group>";
+		};
+		5898E4B7264BC457003954F4 /* Views Patient */ = {
+			isa = PBXGroup;
+			children = (
+				583CAC5D2644CF7C00DB2037 /* PatientView.swift */,
+			);
+			path = "Views Patient";
+			sourceTree = "<group>";
+		};
+		5898E4B8264BC474003954F4 /* Model Patient */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8885263E9BCB00613F39 /* PatientViewModel.swift */,
+			);
+			path = "Model Patient";
+			sourceTree = "<group>";
+		};
+		5898E4B9264BC491003954F4 /* Firebase Patient */ = {
+			isa = PBXGroup;
+			children = (
+				58FE888A263EB09B00613F39 /* FBPatient.swift */,
+			);
+			path = "Firebase Patient";
+			sourceTree = "<group>";
+		};
+		589D0DD92643ACBA0098B02A /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				5898E4B9264BC491003954F4 /* Firebase Patient */,
+				5898E4B8264BC474003954F4 /* Model Patient */,
+				5898E4B7264BC457003954F4 /* Views Patient */,
+				589D0DDB2643AFAE0098B02A /* Firestore Patient */,
+				583CAC572644C2C500DB2037 /* PatientHelper.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		589D0DDB2643AFAE0098B02A /* Firestore Patient */ = {
+			isa = PBXGroup;
+			children = (
+				589D0DDC2643AFD80098B02A /* FBFirestorePatient.swift */,
+			);
+			path = "Firestore Patient";
+			sourceTree = "<group>";
+		};
+		58C23FA02642387B00F7593E /* Firebase  */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8879263E70B500613F39 /* FBKeys.swift */,
+			);
+			path = "Firebase ";
+			sourceTree = "<group>";
+		};
+		58C23FA1264238A100F7593E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8869263E1F3500613F39 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		58C23FA5264239AE00F7593E /* Firebase User */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8882263E70C900613F39 /* FBAuth.swift */,
+				58FE8881263E70C900613F39 /* FBAuthError.swift */,
+				58FE887A263E70B500613F39 /* FBUser.swift */,
+				58143F2C263F9F4D00C87C67 /* NanoID.swift */,
+				58FE8877263E6FB100613F39 /* UserInfo.swift */,
+			);
+			path = "Firebase User";
+			sourceTree = "<group>";
+		};
+		58C23FA7264239DD00F7593E /* Model User */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8875263E6F2800613F39 /* UserViewModel.swift */,
+			);
+			path = "Model User";
+			sourceTree = "<group>";
+		};
+		58EBF3232669ADED00A83298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58EBF3242669ADED00A83298 /* PassKit.framework */,
+				7E2A07FE8EF1D7D7F74C009A /* libPods-CovidVaccinationPassport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58FE8833263CD9E100613F39 = {
 			isa = PBXGroup;
 			children = (
+				585853AC266EC8220036F6F9 /* VaccineCard.pkpass */,
 				58FE883E263CD9E100613F39 /* CovidVaccinationPassport */,
 				58FE883D263CD9E100613F39 /* Products */,
+				58EBF3232669ADED00A83298 /* Frameworks */,
+				42149FF89CC6D8182C002216 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,12 +258,19 @@
 		58FE883E263CD9E100613F39 /* CovidVaccinationPassport */ = {
 			isa = PBXGroup;
 			children = (
+				58EBF3222669ADED00A83298 /* CovidVaccinationPassport.entitlements */,
+				583CAC592644C82600DB2037 /* Vaccine */,
+				589D0DD92643ACBA0098B02A /* Patient */,
+				58C23FA1264238A100F7593E /* Home */,
+				58C23FA02642387B00F7593E /* Firebase  */,
 				58FE8888263EAEC000613F39 /* Nurse */,
-				58FE8870263E6CAB00613F39 /* Firebase */,
-				58FE885B263DFFE200613F39 /* Views */,
-				58FE883F263CD9E100613F39 /* CovidVaccinationPassportApp.swift */,
-				58FE8879263E70B500613F39 /* FBKeys.swift */,
+				58FE8870263E6CAB00613F39 /* User */,
+				583CAC4D2644989900DB2037 /* ViewHelpers */,
 				58FE8841263CD9E100613F39 /* ContentView.swift */,
+				58FE883F263CD9E100613F39 /* CovidVaccinationPassportApp.swift */,
+				58668CDE2670892500243F81 /* ImagePicker.swift */,
+				58B1D698266575AF007464D6 /* Card.swift */,
+				589D0DE02643C0840098B02A /* test1.swift */,
 				58FE8843263CD9E200613F39 /* Assets.xcassets */,
 				58FE8848263CD9E200613F39 /* Info.plist */,
 				58FE8850263D587700613F39 /* GoogleService-Info.plist */,
@@ -112,61 +287,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		58FE885B263DFFE200613F39 /* Views */ = {
+		58FE8870263E6CAB00613F39 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				58FE8869263E1F3500613F39 /* HomeView.swift */,
+				58C23FA7264239DD00F7593E /* Model User */,
+				58C23FA5264239AE00F7593E /* Firebase User */,
+				58FE8873263E6CC700613F39 /* Firestore User */,
+				58FE8871263E6CB300613F39 /* Views User */,
 			);
-			path = Views;
+			path = User;
 			sourceTree = "<group>";
 		};
-		58FE8870263E6CAB00613F39 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				58FE8874263E6CD200613F39 /* Auth */,
-				58FE8873263E6CC700613F39 /* Firestore */,
-				58FE8871263E6CB300613F39 /* Views */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		58FE8871263E6CB300613F39 /* Views */ = {
+		58FE8871263E6CB300613F39 /* Views User */ = {
 			isa = PBXGroup;
 			children = (
 				58FE8859263DF88600613F39 /* LoginView.swift */,
 				58FE885E263E012800613F39 /* RegisterView.swift */,
-				58143F2A263F6E2500C87C67 /* CustomCorner.swift */,
 			);
-			path = Views;
+			path = "Views User";
 			sourceTree = "<group>";
 		};
-		58FE8873263E6CC700613F39 /* Firestore */ = {
+		58FE8873263E6CC700613F39 /* Firestore User */ = {
 			isa = PBXGroup;
 			children = (
 				58FE887C263E70B500613F39 /* FBFireStore.swift */,
 				58FE887B263E70B500613F39 /* FBFireStoreError.swift */,
-				58FE887A263E70B500613F39 /* FBUser.swift */,
 			);
-			path = Firestore;
-			sourceTree = "<group>";
-		};
-		58FE8874263E6CD200613F39 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				58FE8882263E70C900613F39 /* FBAuth.swift */,
-				58FE8881263E70C900613F39 /* FBAuthError.swift */,
-				58FE8877263E6FB100613F39 /* UserInfo.swift */,
-				58FE8875263E6F2800613F39 /* UserViewModel.swift */,
-			);
-			path = Auth;
+			path = "Firestore User";
 			sourceTree = "<group>";
 		};
 		58FE8888263EAEC000613F39 /* Nurse */ = {
 			isa = PBXGroup;
 			children = (
-				58FE8885263E9BCB00613F39 /* PatientViewModel.swift */,
 				58FE885C263E006800613F39 /* NurseView.swift */,
-				58FE888A263EB09B00613F39 /* FBPatient.swift */,
 			);
 			path = Nurse;
 			sourceTree = "<group>";
@@ -178,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58FE884B263CD9E200613F39 /* Build configuration list for PBXNativeTarget "CovidVaccinationPassport" */;
 			buildPhases = (
+				6DDF802B5457937252E1D0F9 /* [CP] Check Pods Manifest.lock */,
 				58FE8838263CD9E100613F39 /* Sources */,
 				58FE8839263CD9E100613F39 /* Frameworks */,
 				58FE883A263CD9E100613F39 /* Resources */,
@@ -191,6 +345,9 @@
 				58FE8853263D5B4000613F39 /* FirebaseAuth */,
 				58FE8855263D5B4000613F39 /* FirebaseFirestore */,
 				58FE8857263D5B4000613F39 /* FirebaseStorage */,
+				58AAC7182648F17C00A7DF61 /* iPhoneNumberField */,
+				58BD37B9266E1AED00D7509B /* PassLibrarySUI */,
+				58BD37BC266E1B6000D7509B /* PassLibrary */,
 			);
 			productName = CovidVaccinationPassport;
 			productReference = 58FE883C263CD9E100613F39 /* CovidVaccinationPassport.app */;
@@ -221,6 +378,9 @@
 			mainGroup = 58FE8833263CD9E100613F39;
 			packageReferences = (
 				58FE8852263D5B4000613F39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				58AAC7172648F17B00A7DF61 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+				58BD37B8266E1AED00D7509B /* XCRemoteSwiftPackageReference "PassLibrarySUI" */,
+				58BD37BB266E1B6000D7509B /* XCRemoteSwiftPackageReference "PassLibrary" */,
 			);
 			productRefGroup = 58FE883D263CD9E100613F39 /* Products */;
 			projectDirPath = "";
@@ -236,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585853AD266EC8220036F6F9 /* VaccineCard.pkpass in Resources */,
 				58FE8847263CD9E200613F39 /* Preview Assets.xcassets in Resources */,
 				58FE8844263CD9E200613F39 /* Assets.xcassets in Resources */,
 				58FE8851263D587700613F39 /* GoogleService-Info.plist in Resources */,
@@ -244,6 +405,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DDF802B5457937252E1D0F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CovidVaccinationPassport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58FE8838263CD9E100613F39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -251,20 +437,34 @@
 			files = (
 				58FE8842263CD9E100613F39 /* ContentView.swift in Sources */,
 				58FE887D263E70B500613F39 /* FBKeys.swift in Sources */,
+				58DCE357264CFCBC000ACB1D /* VaccineView.swift in Sources */,
 				58FE8886263E9BCB00613F39 /* PatientViewModel.swift in Sources */,
 				58FE887F263E70B500613F39 /* FBFireStoreError.swift in Sources */,
 				58143F2B263F6E2500C87C67 /* CustomCorner.swift in Sources */,
 				58FE888B263EB09B00613F39 /* FBPatient.swift in Sources */,
+				58B1D699266575AF007464D6 /* Card.swift in Sources */,
+				583CAC4F26449A8A00DB2037 /* VaccineViewModel.swift in Sources */,
+				58143F2D263F9F4D00C87C67 /* NanoID.swift in Sources */,
 				58FE885F263E012800613F39 /* RegisterView.swift in Sources */,
 				58FE887E263E70B500613F39 /* FBUser.swift in Sources */,
 				58FE885A263DF88600613F39 /* LoginView.swift in Sources */,
+				5898E4BD264BD3A0003954F4 /* FBFirestoreVaccine.swift in Sources */,
+				5898E4BB264BCE7D003954F4 /* FBVaccine.swift in Sources */,
+				58C23FA9264245AB00F7593E /* DirectToView.swift in Sources */,
 				58FE886A263E1F3500613F39 /* HomeView.swift in Sources */,
 				58FE885D263E006800613F39 /* NurseView.swift in Sources */,
+				583CAC5C2644C85B00DB2037 /* VaccineHelper.swift in Sources */,
+				58C23FA3264238FF00F7593E /* Colors.swift in Sources */,
+				589D0DE12643C0840098B02A /* test1.swift in Sources */,
 				58FE8840263CD9E100613F39 /* CovidVaccinationPassportApp.swift in Sources */,
+				583CAC5E2644CF7C00DB2037 /* PatientView.swift in Sources */,
+				58668CDF2670892500243F81 /* ImagePicker.swift in Sources */,
 				58FE8876263E6F2800613F39 /* UserViewModel.swift in Sources */,
 				58FE8883263E70C900613F39 /* FBAuthError.swift in Sources */,
 				58FE8878263E6FB100613F39 /* UserInfo.swift in Sources */,
+				589D0DDD2643AFD80098B02A /* FBFirestorePatient.swift in Sources */,
 				58FE8884263E70C900613F39 /* FBAuth.swift in Sources */,
+				583CAC582644C2C500DB2037 /* PatientHelper.swift in Sources */,
 				58FE8880263E70B500613F39 /* FBFireStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,11 +590,14 @@
 		};
 		58FE884C263CD9E200613F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13E3BEE2EE737675EB39C6E /* Pods-CovidVaccinationPassport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CovidVaccinationPassport/CovidVaccinationPassport.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CovidVaccinationPassport/Preview Content\"";
+				DEVELOPMENT_TEAM = QH4497ADX8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CovidVaccinationPassport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -411,11 +614,14 @@
 		};
 		58FE884D263CD9E200613F39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1145A6697BFCD6BD13547D4 /* Pods-CovidVaccinationPassport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CovidVaccinationPassport/CovidVaccinationPassport.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CovidVaccinationPassport/Preview Content\"";
+				DEVELOPMENT_TEAM = QH4497ADX8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CovidVaccinationPassport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -454,6 +660,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		58AAC7172648F17B00A7DF61 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+		58BD37B8266E1AED00D7509B /* XCRemoteSwiftPackageReference "PassLibrarySUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kamaal111/PassLibrarySUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		58BD37BB266E1B6000D7509B /* XCRemoteSwiftPackageReference "PassLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kamaal111/PassLibrary";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		58FE8852263D5B4000613F39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -465,6 +695,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		58AAC7182648F17C00A7DF61 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58AAC7172648F17B00A7DF61 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+		58BD37B9266E1AED00D7509B /* PassLibrarySUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58BD37B8266E1AED00D7509B /* XCRemoteSwiftPackageReference "PassLibrarySUI" */;
+			productName = PassLibrarySUI;
+		};
+		58BD37BC266E1B6000D7509B /* PassLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58BD37BB266E1B6000D7509B /* XCRemoteSwiftPackageReference "PassLibrary" */;
+			productName = PassLibrary;
+		};
 		58FE8853263D5B4000613F39 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 58FE8852263D5B4000613F39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
